@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C018D0D315F72E01000C9D8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018D0D215F72E01000C9D8B /* UIKit.framework */; };
+		C018D0D515F72E01000C9D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018D0D415F72E01000C9D8B /* Foundation.framework */; };
+		C018D0D715F72E01000C9D8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018D0D615F72E01000C9D8B /* CoreGraphics.framework */; };
+		C018D0DD15F72E01000C9D8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C018D0DB15F72E01000C9D8B /* InfoPlist.strings */; };
+		C018D0DF15F72E01000C9D8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C018D0DE15F72E01000C9D8B /* main.m */; };
+		C018D0E315F72E01000C9D8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C018D0E215F72E01000C9D8B /* AppDelegate.m */; };
+		C018D0EA15F72E3A000C9D8B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018D0E915F72E3A000C9D8B /* QuartzCore.framework */; };
+		C018D0ED15F72FDF000C9D8B /* InstagramMenuTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C018D0EC15F72FDF000C9D8B /* InstagramMenuTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C018D0CE15F72E01000C9D8B /* InstagramMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C018D0D215F72E01000C9D8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C018D0D415F72E01000C9D8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C018D0D615F72E01000C9D8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C018D0DA15F72E01000C9D8B /* InstagramMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstagramMenu-Info.plist"; sourceTree = "<group>"; };
+		C018D0DC15F72E01000C9D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C018D0DE15F72E01000C9D8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C018D0E015F72E01000C9D8B /* InstagramMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstagramMenu-Prefix.pch"; sourceTree = "<group>"; };
+		C018D0E115F72E01000C9D8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C018D0E215F72E01000C9D8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C018D0E915F72E3A000C9D8B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C018D0EB15F72FDE000C9D8B /* InstagramMenuTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramMenuTestViewController.h; sourceTree = "<group>"; };
+		C018D0EC15F72FDF000C9D8B /* InstagramMenuTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramMenuTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C018D0CB15F72E01000C9D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018D0EA15F72E3A000C9D8B /* QuartzCore.framework in Frameworks */,
+				C018D0D315F72E01000C9D8B /* UIKit.framework in Frameworks */,
+				C018D0D515F72E01000C9D8B /* Foundation.framework in Frameworks */,
+				C018D0D715F72E01000C9D8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C018D0C315F72E01000C9D8B = {
+			isa = PBXGroup;
+			children = (
+				C018D0D815F72E01000C9D8B /* InstagramMenu */,
+				C018D0D115F72E01000C9D8B /* Frameworks */,
+				C018D0CF15F72E01000C9D8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C018D0CF15F72E01000C9D8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C018D0CE15F72E01000C9D8B /* InstagramMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C018D0D115F72E01000C9D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C018D0E915F72E3A000C9D8B /* QuartzCore.framework */,
+				C018D0D215F72E01000C9D8B /* UIKit.framework */,
+				C018D0D415F72E01000C9D8B /* Foundation.framework */,
+				C018D0D615F72E01000C9D8B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C018D0D815F72E01000C9D8B /* InstagramMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C018D0E115F72E01000C9D8B /* AppDelegate.h */,
+				C018D0E215F72E01000C9D8B /* AppDelegate.m */,
+				C018D0EB15F72FDE000C9D8B /* InstagramMenuTestViewController.h */,
+				C018D0EC15F72FDF000C9D8B /* InstagramMenuTestViewController.m */,
+				C018D0D915F72E01000C9D8B /* Supporting Files */,
+			);
+			path = InstagramMenu;
+			sourceTree = "<group>";
+		};
+		C018D0D915F72E01000C9D8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C018D0DA15F72E01000C9D8B /* InstagramMenu-Info.plist */,
+				C018D0DB15F72E01000C9D8B /* InfoPlist.strings */,
+				C018D0DE15F72E01000C9D8B /* main.m */,
+				C018D0E015F72E01000C9D8B /* InstagramMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C018D0CD15F72E01000C9D8B /* InstagramMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C018D0E615F72E01000C9D8B /* Build configuration list for PBXNativeTarget "InstagramMenu" */;
+			buildPhases = (
+				C018D0CA15F72E01000C9D8B /* Sources */,
+				C018D0CB15F72E01000C9D8B /* Frameworks */,
+				C018D0CC15F72E01000C9D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstagramMenu;
+			productName = InstagramMenu;
+			productReference = C018D0CE15F72E01000C9D8B /* InstagramMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C018D0C515F72E01000C9D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Sacchy;
+			};
+			buildConfigurationList = C018D0C815F72E01000C9D8B /* Build configuration list for PBXProject "InstagramMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C018D0C315F72E01000C9D8B;
+			productRefGroup = C018D0CF15F72E01000C9D8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C018D0CD15F72E01000C9D8B /* InstagramMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C018D0CC15F72E01000C9D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018D0DD15F72E01000C9D8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C018D0CA15F72E01000C9D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018D0DF15F72E01000C9D8B /* main.m in Sources */,
+				C018D0E315F72E01000C9D8B /* AppDelegate.m in Sources */,
+				C018D0ED15F72FDF000C9D8B /* InstagramMenuTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C018D0DB15F72E01000C9D8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C018D0DC15F72E01000C9D8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C018D0E415F72E01000C9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C018D0E515F72E01000C9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C018D0E715F72E01000C9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstagramMenu/InstagramMenu-Prefix.pch";
+				INFOPLIST_FILE = "InstagramMenu/InstagramMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C018D0E815F72E01000C9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstagramMenu/InstagramMenu-Prefix.pch";
+				INFOPLIST_FILE = "InstagramMenu/InstagramMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C018D0C815F72E01000C9D8B /* Build configuration list for PBXProject "InstagramMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C018D0E415F72E01000C9D8B /* Debug */,
+				C018D0E515F72E01000C9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C018D0E615F72E01000C9D8B /* Build configuration list for PBXNativeTarget "InstagramMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C018D0E715F72E01000C9D8B /* Debug */,
+				C018D0E815F72E01000C9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C018D0C515F72E01000C9D8B /* Project object */;
+}
