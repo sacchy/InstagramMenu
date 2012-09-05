@@ -15,6 +15,13 @@
 		C018D0E315F72E01000C9D8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C018D0E215F72E01000C9D8B /* AppDelegate.m */; };
 		C018D0EA15F72E3A000C9D8B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018D0E915F72E3A000C9D8B /* QuartzCore.framework */; };
 		C018D0ED15F72FDF000C9D8B /* InstagramMenuTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C018D0EC15F72FDF000C9D8B /* InstagramMenuTestViewController.m */; };
+		C05690A315F732FA007C7397 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = C056909C15F732FA007C7397 /* black.png */; };
+		C05690A415F732FA007C7397 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C056909D15F732FA007C7397 /* blue.png */; };
+		C05690A515F732FA007C7397 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = C056909E15F732FA007C7397 /* green.png */; };
+		C05690A615F732FA007C7397 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = C056909F15F732FA007C7397 /* orange.png */; };
+		C05690A715F732FA007C7397 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = C05690A015F732FA007C7397 /* pink.png */; };
+		C05690A815F732FA007C7397 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = C05690A115F732FA007C7397 /* red.png */; };
+		C05690A915F732FA007C7397 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C05690A215F732FA007C7397 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,13 @@
 		C018D0E915F72E3A000C9D8B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C018D0EB15F72FDE000C9D8B /* InstagramMenuTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramMenuTestViewController.h; sourceTree = "<group>"; };
 		C018D0EC15F72FDF000C9D8B /* InstagramMenuTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramMenuTestViewController.m; sourceTree = "<group>"; };
+		C056909C15F732FA007C7397 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		C056909D15F732FA007C7397 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		C056909E15F732FA007C7397 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		C056909F15F732FA007C7397 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		C05690A015F732FA007C7397 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		C05690A115F732FA007C7397 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		C05690A215F732FA007C7397 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,7 @@
 		C018D0D815F72E01000C9D8B /* InstagramMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C056909B15F732FA007C7397 /* Resource */,
 				C018D0E115F72E01000C9D8B /* AppDelegate.h */,
 				C018D0E215F72E01000C9D8B /* AppDelegate.m */,
 				C018D0EB15F72FDE000C9D8B /* InstagramMenuTestViewController.h */,
@@ -97,6 +112,20 @@
 				C018D0E015F72E01000C9D8B /* InstagramMenu-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C056909B15F732FA007C7397 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C056909C15F732FA007C7397 /* black.png */,
+				C056909D15F732FA007C7397 /* blue.png */,
+				C056909E15F732FA007C7397 /* green.png */,
+				C056909F15F732FA007C7397 /* orange.png */,
+				C05690A015F732FA007C7397 /* pink.png */,
+				C05690A115F732FA007C7397 /* red.png */,
+				C05690A215F732FA007C7397 /* yellow.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C018D0DD15F72E01000C9D8B /* InfoPlist.strings in Resources */,
+				C05690A315F732FA007C7397 /* black.png in Resources */,
+				C05690A415F732FA007C7397 /* blue.png in Resources */,
+				C05690A515F732FA007C7397 /* green.png in Resources */,
+				C05690A615F732FA007C7397 /* orange.png in Resources */,
+				C05690A715F732FA007C7397 /* pink.png in Resources */,
+				C05690A815F732FA007C7397 /* red.png in Resources */,
+				C05690A915F732FA007C7397 /* yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +307,7 @@
 				C018D0E815F72E01000C9D8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
